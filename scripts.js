@@ -1,3 +1,4 @@
+alert("¡JS conectado correctamente!");
 // 1. Selector por ID (getElementById)
 const miBoton = document.getElementById('boton-alerta');
 miBoton.onclick = function() {
