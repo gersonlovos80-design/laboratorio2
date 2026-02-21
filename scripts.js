@@ -38,8 +38,4 @@ todosLosItems.forEach((item, posicion) => {
     };
 });
 
-const laCaja = document.getElementById('caja-color');
-laCaja.onclick = () => {
-    laCaja.style.backgroundColor = 'yellow';
-    laCaja.innerText = "¡Cambió!";
-};
+
