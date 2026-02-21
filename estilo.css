@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    line-height: 2;
+}
+
+.item-lista {
+    cursor: pointer;
+    list-style: none;
+    background: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+}
