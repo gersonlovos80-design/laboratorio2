@@ -36,3 +36,9 @@ todosLosItems.forEach((item, posicion) => {
         item.innerHTML = "Seleccionaste el item " + (posicion + 6);
     };
 });
+
+const laCaja = document.getElementById('caja-color');
+laCaja.onclick = () => {
+    laCaja.style.backgroundColor = 'yellow';
+    laCaja.innerText = "¡Cambió!";
+};
