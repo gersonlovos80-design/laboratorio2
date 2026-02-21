@@ -1,7 +1,7 @@
 // --- 1. BOTÓN (ALERTA) ---
 const miBoton = document.getElementById('boton-alerta');
 miBoton.onclick = function() {
-    alert("¡Hola Gerson! El código funciona.");
+    alert("Saludos.");
 };
 
 // --- 2. PÁRRAFO (CAMBIA Y REGRESA) ---
@@ -13,7 +13,7 @@ elTexto.onmouseout = () => elTexto.style.color = 'black'; // Esto hace que REGRE
 const laEntrada = document.querySelector('#campo-texto');
 laEntrada.oninput = (evento) => {
     // Para ver esto, debes tener abierta la CONSOLA (F12)
-    console.log("Gerson escribió: " + evento.target.value);
+    console.log("Escribió: " + evento.target.value);
 };
 
 // --- 4. IMAGEN (DOBLE CLIC) ---
@@ -23,7 +23,7 @@ laImagen.ondblclick = () => {
     laImagen.style.transform = "scale(1.2)"; // La hace un poquito más grande
 };
 
-// --- 5. CUADRO MÁGICO (CAMBIA COLOR Y TEXTO) ---
+// --- 5. CUADRO (CAMBIA COLOR Y TEXTO) ---
 const laCaja = document.getElementById('caja-color');
 laCaja.onclick = () => {
     laCaja.style.backgroundColor = 'yellow';
